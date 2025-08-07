@@ -4,22 +4,22 @@ import "./css/App.css";
 //mocagem de dados//
 const mock = [
   {
-    "id": 1,
-    "name": "Rick Sanchez",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (C-137)",
-      "url": "https://rickandmortyapi.com/api/location/1"
+    id: 1,
+    name: "Rick Sanchez",
+    status: "Alive",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "Earth (C-137)",
+      url: "https://rickandmortyapi.com/api/location/1",
     },
-    "location": {
-      "name": "Citadel of Ricks",
-      "url": "https://rickandmortyapi.com/api/location/3"
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://rickandmortyapi.com/api/location/3",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/1",
       "https://rickandmortyapi.com/api/episode/2",
       "https://rickandmortyapi.com/api/episode/3",
@@ -70,28 +70,28 @@ const mock = [
       "https://rickandmortyapi.com/api/episode/48",
       "https://rickandmortyapi.com/api/episode/49",
       "https://rickandmortyapi.com/api/episode/50",
-      "https://rickandmortyapi.com/api/episode/51"
+      "https://rickandmortyapi.com/api/episode/51",
     ],
-    "url": "https://rickandmortyapi.com/api/character/1",
-    "created": "2017-11-04T18:48:46.250Z"
+    url: "https://rickandmortyapi.com/api/character/1",
+    created: "2017-11-04T18:48:46.250Z",
   },
   {
-    "id": 2,
-    "name": "Morty Smith",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 2,
+    name: "Morty Smith",
+    status: "Alive",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Citadel of Ricks",
-      "url": "https://rickandmortyapi.com/api/location/3"
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://rickandmortyapi.com/api/location/3",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/1",
       "https://rickandmortyapi.com/api/episode/2",
       "https://rickandmortyapi.com/api/episode/3",
@@ -142,28 +142,28 @@ const mock = [
       "https://rickandmortyapi.com/api/episode/48",
       "https://rickandmortyapi.com/api/episode/49",
       "https://rickandmortyapi.com/api/episode/50",
-      "https://rickandmortyapi.com/api/episode/51"
+      "https://rickandmortyapi.com/api/episode/51",
     ],
-    "url": "https://rickandmortyapi.com/api/character/2",
-    "created": "2017-11-04T18:50:21.651Z"
+    url: "https://rickandmortyapi.com/api/character/2",
+    created: "2017-11-04T18:50:21.651Z",
   },
   {
-    "id": 3,
-    "name": "Summer Smith",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Female",
-    "origin": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    id: 3,
+    name: "Summer Smith",
+    status: "Alive",
+    species: "Human",
+    type: "",
+    gender: "Female",
+    origin: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/6",
       "https://rickandmortyapi.com/api/episode/7",
       "https://rickandmortyapi.com/api/episode/8",
@@ -205,28 +205,28 @@ const mock = [
       "https://rickandmortyapi.com/api/episode/47",
       "https://rickandmortyapi.com/api/episode/48",
       "https://rickandmortyapi.com/api/episode/49",
-      "https://rickandmortyapi.com/api/episode/51"
+      "https://rickandmortyapi.com/api/episode/51",
     ],
-    "url": "https://rickandmortyapi.com/api/character/3",
-    "created": "2017-11-04T19:09:56.428Z"
+    url: "https://rickandmortyapi.com/api/character/3",
+    created: "2017-11-04T19:09:56.428Z",
   },
   {
-    "id": 4,
-    "name": "Beth Smith",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Female",
-    "origin": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    id: 4,
+    name: "Beth Smith",
+    status: "Alive",
+    species: "Human",
+    type: "",
+    gender: "Female",
+    origin: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/6",
       "https://rickandmortyapi.com/api/episode/7",
       "https://rickandmortyapi.com/api/episode/8",
@@ -268,28 +268,28 @@ const mock = [
       "https://rickandmortyapi.com/api/episode/47",
       "https://rickandmortyapi.com/api/episode/48",
       "https://rickandmortyapi.com/api/episode/49",
-      "https://rickandmortyapi.com/api/episode/51"
+      "https://rickandmortyapi.com/api/episode/51",
     ],
-    "url": "https://rickandmortyapi.com/api/character/4",
-    "created": "2017-11-04T19:22:43.665Z"
+    url: "https://rickandmortyapi.com/api/character/4",
+    created: "2017-11-04T19:22:43.665Z",
   },
   {
-    "id": 5,
-    "name": "Jerry Smith",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    id: 5,
+    name: "Jerry Smith",
+    status: "Alive",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/6",
       "https://rickandmortyapi.com/api/episode/7",
       "https://rickandmortyapi.com/api/episode/8",
@@ -328,420 +328,467 @@ const mock = [
       "https://rickandmortyapi.com/api/episode/48",
       "https://rickandmortyapi.com/api/episode/49",
       "https://rickandmortyapi.com/api/episode/50",
-      "https://rickandmortyapi.com/api/episode/51"
+      "https://rickandmortyapi.com/api/episode/51",
     ],
-    "url": "https://rickandmortyapi.com/api/character/5",
-    "created": "2017-11-04T19:26:56.301Z"
+    url: "https://rickandmortyapi.com/api/character/5",
+    created: "2017-11-04T19:26:56.301Z",
   },
   {
-    "id": 6,
-    "name": "Abadango Cluster Princess",
-    "status": "Alive",
-    "species": "Alien",
-    "type": "",
-    "gender": "Female",
-    "origin": {
-      "name": "Abadango",
-      "url": "https://rickandmortyapi.com/api/location/2"
+    id: 6,
+    name: "Abadango Cluster Princess",
+    status: "Alive",
+    species: "Alien",
+    type: "",
+    gender: "Female",
+    origin: {
+      name: "Abadango",
+      url: "https://rickandmortyapi.com/api/location/2",
     },
-    "location": {
-      "name": "Abadango",
-      "url": "https://rickandmortyapi.com/api/location/2"
+    location: {
+      name: "Abadango",
+      url: "https://rickandmortyapi.com/api/location/2",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/27"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/6",
-    "created": "2017-11-04T19:50:28.250Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/27"],
+    url: "https://rickandmortyapi.com/api/character/6",
+    created: "2017-11-04T19:50:28.250Z",
   },
   {
-    "id": 7,
-    "name": "Abradolf Lincler",
-    "status": "unknown",
-    "species": "Human",
-    "type": "Genetic experiment",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    id: 7,
+    name: "Abradolf Lincler",
+    status: "unknown",
+    species: "Human",
+    type: "Genetic experiment",
+    gender: "Male",
+    origin: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "location": {
-      "name": "Testicle Monster Dimension",
-      "url": "https://rickandmortyapi.com/api/location/21"
+    location: {
+      name: "Testicle Monster Dimension",
+      url: "https://rickandmortyapi.com/api/location/21",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/10",
-      "https://rickandmortyapi.com/api/episode/11"
+      "https://rickandmortyapi.com/api/episode/11",
     ],
-    "url": "https://rickandmortyapi.com/api/character/7",
-    "created": "2017-11-04T19:59:20.523Z"
+    url: "https://rickandmortyapi.com/api/character/7",
+    created: "2017-11-04T19:59:20.523Z",
   },
   {
-    "id": 8,
-    "name": "Adjudicator Rick",
-    "status": "Dead",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 8,
+    name: "Adjudicator Rick",
+    status: "Dead",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Citadel of Ricks",
-      "url": "https://rickandmortyapi.com/api/location/3"
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://rickandmortyapi.com/api/location/3",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/28"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/8",
-    "created": "2017-11-04T20:03:34.737Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/28"],
+    url: "https://rickandmortyapi.com/api/character/8",
+    created: "2017-11-04T20:03:34.737Z",
   },
   {
-    "id": 9,
-    "name": "Agency Director",
-    "status": "Dead",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    id: 9,
+    name: "Agency Director",
+    status: "Dead",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/24"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/9",
-    "created": "2017-11-04T20:06:54.976Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/24"],
+    url: "https://rickandmortyapi.com/api/character/9",
+    created: "2017-11-04T20:06:54.976Z",
   },
   {
-    "id": 10,
-    "name": "Alan Rails",
-    "status": "Dead",
-    "species": "Human",
-    "type": "Superhuman (Ghost trains summoner)",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 10,
+    name: "Alan Rails",
+    status: "Dead",
+    species: "Human",
+    type: "Superhuman (Ghost trains summoner)",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Worldender's lair",
-      "url": "https://rickandmortyapi.com/api/location/4"
+    location: {
+      name: "Worldender's lair",
+      url: "https://rickandmortyapi.com/api/location/4",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/25"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/10",
-    "created": "2017-11-04T20:19:09.017Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/25"],
+    url: "https://rickandmortyapi.com/api/character/10",
+    created: "2017-11-04T20:19:09.017Z",
   },
   {
-    "id": 11,
-    "name": "Albert Einstein",
-    "status": "Dead",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (C-137)",
-      "url": "https://rickandmortyapi.com/api/location/1"
+    id: 11,
+    name: "Albert Einstein",
+    status: "Dead",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "Earth (C-137)",
+      url: "https://rickandmortyapi.com/api/location/1",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/12"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/11",
-    "created": "2017-11-04T20:20:20.965Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/12"],
+    url: "https://rickandmortyapi.com/api/character/11",
+    created: "2017-11-04T20:20:20.965Z",
   },
   {
-    "id": 12,
-    "name": "Alexander",
-    "status": "Dead",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (C-137)",
-      "url": "https://rickandmortyapi.com/api/location/1"
+    id: 12,
+    name: "Alexander",
+    status: "Dead",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "Earth (C-137)",
+      url: "https://rickandmortyapi.com/api/location/1",
     },
-    "location": {
-      "name": "Anatomy Park",
-      "url": "https://rickandmortyapi.com/api/location/5"
+    location: {
+      name: "Anatomy Park",
+      url: "https://rickandmortyapi.com/api/location/5",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/3"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/12",
-    "created": "2017-11-04T20:32:33.144Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/3"],
+    url: "https://rickandmortyapi.com/api/character/12",
+    created: "2017-11-04T20:32:33.144Z",
   },
   {
-    "id": 13,
-    "name": "Alien Googah",
-    "status": "unknown",
-    "species": "Alien",
-    "type": "",
-    "gender": "unknown",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 13,
+    name: "Alien Googah",
+    status: "unknown",
+    species: "Alien",
+    type: "",
+    gender: "unknown",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/31"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/13",
-    "created": "2017-11-04T20:33:30.779Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/31"],
+    url: "https://rickandmortyapi.com/api/character/13",
+    created: "2017-11-04T20:33:30.779Z",
   },
   {
-    "id": 14,
-    "name": "Alien Morty",
-    "status": "unknown",
-    "species": "Alien",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 14,
+    name: "Alien Morty",
+    status: "unknown",
+    species: "Alien",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Citadel of Ricks",
-      "url": "https://rickandmortyapi.com/api/location/3"
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://rickandmortyapi.com/api/location/3",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/10"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/14",
-    "created": "2017-11-04T20:51:31.373Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/10"],
+    url: "https://rickandmortyapi.com/api/character/14",
+    created: "2017-11-04T20:51:31.373Z",
   },
   {
-    "id": 15,
-    "name": "Alien Rick",
-    "status": "unknown",
-    "species": "Alien",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 15,
+    name: "Alien Rick",
+    status: "unknown",
+    species: "Alien",
+    type: "",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Citadel of Ricks",
-      "url": "https://rickandmortyapi.com/api/location/3"
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://rickandmortyapi.com/api/location/3",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/10"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/15",
-    "created": "2017-11-04T20:56:13.215Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/10"],
+    url: "https://rickandmortyapi.com/api/character/15",
+    created: "2017-11-04T20:56:13.215Z",
   },
   {
-    "id": 16,
-    "name": "Amish Cyborg",
-    "status": "Dead",
-    "species": "Alien",
-    "type": "Parasite",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 16,
+    name: "Amish Cyborg",
+    status: "Dead",
+    species: "Alien",
+    type: "Parasite",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
+    location: {
+      name: "Earth (Replacement Dimension)",
+      url: "https://rickandmortyapi.com/api/location/20",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/15"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/16",
-    "created": "2017-11-04T21:12:45.235Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/15"],
+    url: "https://rickandmortyapi.com/api/character/16",
+    created: "2017-11-04T21:12:45.235Z",
   },
   {
-    "id": 17,
-    "name": "Annie",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Female",
-    "origin": {
-      "name": "Earth (C-137)",
-      "url": "https://rickandmortyapi.com/api/location/1"
+    id: 17,
+    name: "Annie",
+    status: "Alive",
+    species: "Human",
+    type: "",
+    gender: "Female",
+    origin: {
+      name: "Earth (C-137)",
+      url: "https://rickandmortyapi.com/api/location/1",
     },
-    "location": {
-      "name": "Anatomy Park",
-      "url": "https://rickandmortyapi.com/api/location/5"
+    location: {
+      name: "Anatomy Park",
+      url: "https://rickandmortyapi.com/api/location/5",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/3"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/17",
-    "created": "2017-11-04T22:21:24.481Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/3"],
+    url: "https://rickandmortyapi.com/api/character/17",
+    created: "2017-11-04T22:21:24.481Z",
   },
   {
-    "id": 18,
-    "name": "Antenna Morty",
-    "status": "Alive",
-    "species": "Human",
-    "type": "Human with antennae",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 18,
+    name: "Antenna Morty",
+    status: "Alive",
+    species: "Human",
+    type: "Human with antennae",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Citadel of Ricks",
-      "url": "https://rickandmortyapi.com/api/location/3"
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://rickandmortyapi.com/api/location/3",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
-    "episode": [
+    image: "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+    episode: [
       "https://rickandmortyapi.com/api/episode/10",
-      "https://rickandmortyapi.com/api/episode/28"
+      "https://rickandmortyapi.com/api/episode/28",
     ],
-    "url": "https://rickandmortyapi.com/api/character/18",
-    "created": "2017-11-04T22:25:29.008Z"
+    url: "https://rickandmortyapi.com/api/character/18",
+    created: "2017-11-04T22:25:29.008Z",
   },
   {
-    "id": 19,
-    "name": "Antenna Rick",
-    "status": "unknown",
-    "species": "Human",
-    "type": "Human with antennae",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 19,
+    name: "Antenna Rick",
+    status: "unknown",
+    species: "Human",
+    type: "Human with antennae",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "unknown",
-      "url": ""
+    location: {
+      name: "unknown",
+      url: "",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/10"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/19",
-    "created": "2017-11-04T22:28:13.756Z"
+    image: "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/10"],
+    url: "https://rickandmortyapi.com/api/character/19",
+    created: "2017-11-04T22:28:13.756Z",
   },
   {
-    "id": 20,
-    "name": "Ants in my Eyes Johnson",
-    "status": "unknown",
-    "species": "Human",
-    "type": "Human with ants in his eyes",
-    "gender": "Male",
-    "origin": {
-      "name": "unknown",
-      "url": ""
+    id: 20,
+    name: "Ants in my Eyes Johnson",
+    status: "unknown",
+    species: "Human",
+    type: "Human with ants in his eyes",
+    gender: "Male",
+    origin: {
+      name: "unknown",
+      url: "",
     },
-    "location": {
-      "name": "Interdimensional Cable",
-      "url": "https://rickandmortyapi.com/api/location/6"
+    location: {
+      name: "Interdimensional Cable",
+      url: "https://rickandmortyapi.com/api/location/6",
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/8"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/20",
-    "created": "2017-11-04T22:34:53.659Z"
-  }
-]
+    image: "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+    episode: ["https://rickandmortyapi.com/api/episode/8"],
+    url: "https://rickandmortyapi.com/api/character/20",
+    created: "2017-11-04T22:34:53.659Z",
+  },
+];
 
-function App() {
-  //funçao que vai colocar um valor dentro do conteudo//
-  const [conteudo, setConteudo] = useState(<h2>Carregando...</h2>)
+function CardPersonagem({ personagem }) {
+  const [mostrarEpisodios, setMostrarEpisodios] = useState(false);
 
-  async function carregarTodosPersonagens() {
-    // return mock
-    const requestOptions = {
-      method: 'GET',
-      redirect: 'follow'
-    }
-
-    const result = await fetch(
-      'https://rickandmortyapi.com/documentation/#filter-characters',
-      requestOptions
-    )
-      .then(response => response.text())
-      .then(result => { return result })
-      .catch(error => console.log('erro aqui', error))
-
-    //console.log(result)
-
-    const personagens = JSON.parse(result)
-    console.log(result)
-    return personagens.results
-  }
-
-  async function montarListaPersonagens() {
-    const personagens = await carregarTodosPersonagens()
-    return personagens.map(personagem =>
-      <div className='card char' key={personagem.id}>
-          //alt acessibilidade para pessoas com deficiencia visual//
-        <img src={personagem.image} alt={personagem.name} />
-        <h2> {personagem.name} </h2>
-        {personagem.name}
-
-
-        <div className='char info '>
-          <spam><b>Especie: </b> {personagem.species}</spam>
-          <spam><b>Genero: </b> {personagem.gender}</spam>
-
-          <div className='lista secundaria'>
-            <b> Participacoes: </b>
-          </div>
-
-          <h5><b>Status</b>{personagem.status}</h5>
-        </div>
-      </div>
-    )
-  }
-
-    useEffect(() => {
-    async function pergarConteudo() {
-        setConteudo (await montarListaPersonagens())
-    }
-
-    pergarConteudo()
-  }, [])
-
-
+  const toggleEpisodios = () => {
+    setMostrarEpisodios(!mostrarEpisodios);
+  };
 
   return (
-    <div className="App">
-      <header className="cabecalho">
-        <h1> Rick And Morty API</h1>
-        <h2>
-          <a href="/">Personagens</a>
-        </h2>
-      </header>
+    <div className="card char">
+      <img src={personagem.image} alt={personagem.name} />
+      <h2>{personagem.name}</h2>
 
-      <div className="Lista principal ">
-        {conteudo}
+      <div className="char-info">
+        <span>
+          <b>Espécie:</b> {personagem.species}
+        </span>
+        <span>
+          <b>Gênero:</b> {personagem.gender}
+        </span>
+        <span>
+          <b>Status:</b> {personagem.status}
+        </span>
+      </div>
+
+      <div className="lista-secundaria">
+        <b>Participações:</b>
+        <button onClick={toggleEpisodios} className="botao-toggle">
+          {mostrarEpisodios ? 'Ocultar episódios ⯅' : 'Ver episódios ⯆'}
+        </button>
+
+        {mostrarEpisodios && (
+          <div className="episodios">
+            {personagem.episode.map((ep) => {
+              const epNumber = ep.split("episode/")[1];
+              return (
+                <span key={personagem.id + "-" + epNumber}>
+                  Ep-{epNumber}
+                </span>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
 }
 
+function App() {
+  const [todosPersonagens, setTodosPersonagens] = useState([]);
+  const [especie, setEspecie] = useState("");
+  const [genero, setGenero] = useState("");
+  const [status, setStatus] = useState("");
+  const [episodio, setEpisodio] = useState("");
+
+  useEffect(() => {
+    async function carregarTodosPersonagens() {
+      let todos = [];
+      let pagina = 1;
+      let continuar = true;
+
+      while (continuar) {
+        const res = await fetch(`https://rickandmortyapi.com/api/character?page=${pagina}`);
+        const data = await res.json();
+
+        todos.push(...data.results);
+        continuar = data.info.next !== null;
+        pagina++;
+      }
+
+      setTodosPersonagens(todos);
+    }
+
+    carregarTodosPersonagens();
+  }, []);
+
+  function filtrarPersonagens() {
+    return todosPersonagens.filter((p) => {
+      const ep = episodio ? p.episode.some((e) => e.endsWith(`/episode/${episodio}`)) : true;
+      const sp = especie ? p.species === especie : true;
+      const g = genero ? p.gender === genero : true;
+      const st = status ? p.status === status : true;
+      return ep && sp && g && st;
+    });
+  }
+
+  return (
+    <div className="App">
+      <header className="cabecalho">
+        <h1>Rick and Morty API</h1>
+        <h2>
+          <a href="/">Personagens</a>
+        </h2>
+
+        {/* Filtros */}
+        <div className="filtros">
+          <div>
+            <label htmlFor="especie">Espécie:</label>
+            <select id="especie" value={especie} onChange={(e) => setEspecie(e.target.value)}>
+              <option value="">Todas</option>
+              <option value="Human">Human</option>
+              <option value="Alien">Alien</option>
+              <option value="Robot">Robot</option>
+              <option value="Mythological Creature">Mythological Creature</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </div>
+
+          <div>
+            <label htmlFor="genero">Gênero:</label>
+            <select id="genero" value={genero} onChange={(e) => setGenero(e.target.value)}>
+              <option value="">Todos</option>
+              <option value="Male">Masculino</option>
+              <option value="Female">Feminino</option>
+              <option value="Genderless">Sem Gênero</option>
+              <option value="unknown">Desconhecido</option>
+            </select>
+          </div>
+
+          <div>
+            <label htmlFor="status">Status:</label>
+            <select id="status" value={status} onChange={(e) => setStatus(e.target.value)}>
+              <option value="">Todos</option>
+              <option value="Alive">Vivo</option>
+              <option value="Dead">Morto</option>
+              <option value="unknown">Desconhecido</option>
+            </select>
+          </div>
+
+          <div>
+            <label htmlFor="episodios">Participações:</label>
+            <select id="episodios" value={episodio} onChange={(e) => setEpisodio(e.target.value)}>
+              <option value="">Todos</option>
+              {Array.from({ length: 51 }, (_, i) => (
+                <option key={i + 1} value={i + 1}>Ep-{i + 1}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <div className="lista-principal">
+        {filtrarPersonagens().map((personagem) => (
+          <CardPersonagem key={personagem.id} personagem={personagem} />
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default App;
+
