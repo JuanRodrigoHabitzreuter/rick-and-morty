@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: purple;
+}
+
+.cabecalho {
+  position: relative;
+  padding: 30px 30px 30px 30px;
+  color: yellow;
+  background-color: rgb(39, 43, 51);
+  text-align: center; /* <-- isso resolve */
+}
+
+.neon-letter {
+  animation: neonFlicker 1.5s infinite alternate;
+  margin: 0 2px;
+}
+
+/* Adicionando delays para piscarem de forma independente */
+.neon-letter:nth-child(odd) {
+  animation-delay: 0s;
+}
+.neon-letter:nth-child(even) {
+  animation-delay: 0.2s;
+}
+
+/* Keyframes para alternar cores entre amarelo e laranja */
+@keyframes neonFlicker {
+  0% {
+    color: #ff6600;
+    text-shadow:
+      0 0 5px #ff6600,
+      0 0 10px #ff6600,
+      0 0 20px #ff6600,
+      0 0 30px #ff6600;
+    opacity: 0.8;
+  }
+  50% {
+    color: #ff6600;
+    text-shadow:
+      0 0 5px #ffcc00,
+      0 0 10px #ffcc00,
+      0 0 20px #ffcc00,
+      0 0 30px #ffcc00;
+    opacity: 1;
+  }
+  100% {
+    color: #ff6600;
+    text-shadow:
+      0 0 5px #ff6600,
+      0 0 10px #ff6600,
+      0 0 20px #ff6600,
+      0 0 30px #ff6600;
+    opacity: 0.9;
+  }
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.filtros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 2px; /* espaço entre os filtros */
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  background-color: #ff6600;
+  border: 4px solid yellowgreen; /* cor da borda */
+  box-sizing: border-box; /* impede a borda de estourar o tamanho */
+}
+.filtro span {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: rgb(0, 61, 182);
+}
+
+.genero,
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  align-self: center;
+}
+
+.filtro span:hover {
+  text-decoration: none;
+  color: #4288ce;
+}
+
+.filtro-ativo {
+  color: #4288ce;
+}
+
+.filtros-titulo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.filtro {
+  margin: 10px;
+}
+
+.lista-principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  min-width: 300px;
+  height: fit-content;
+  color: white;
+  overflow: hidden;
+  background-color: rgb(60, 62, 68);
+  border: 4px solid orange; /* cor da borda */
+  border-radius: 15px; /* deixa arredondado */
+  box-sizing: border-box; /* impede a borda de estourar o tamanho */
+}
+
+.char {
+  width: 20%;
+}
+
+.char img {
+  width: 90%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.char h2 {
+  padding: 1px;
+}
+
+.char-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffcc00;
+}
+
+.char-info span {
+  padding: 2px;
+}
+
+.lista-secundaria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(97, 98, 100);
+  position: relative; /* necessário para posicionar o conteúdo interno */
+  flex: 0 0 auto;
+  cursor: pointer;
+  color: #ffcc00;
+}
+
+li {
+  list-style: none;
+  width: 70px;
+  height: 70px;
+}
+
+li img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: aliceblue;
+}
+
+h5 {
+  padding: 15px;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  margin: 0;
+}
+
+/* Container interno com Flexbox para alinhar GIFs e texto central */
+.cabecalho-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* GIFs nas extremidades */
+  width: 100%;
+  max-width: 1200px; /* opcional */
+  margin: 0 auto;
+  padding: 0 2px; /* espaço mínimo das bordas */
+}
+
+/* GIFs laterais */
+.gif-lateral {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 240px;
+  height: auto;
+  object-fit: contain;
+}
+
+.gif-lateral:first-child {
+  left: 10px;
+}
+
+.gif-lateral:last-child {
+  right: 10px;
+}
+/* Responsivo para mobile */
+@media (max-width: 600px) {
+  .cabecalho-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.cabecalho h1 {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+.episodios {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: rgba(0, 0, 0, 0.9);
+  color: yellow;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  width: 150px;
+  text-align: center;
+  opacity: 0; /* começa invisível */
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.episodios.ativo {
+  opacity: 1;
+  pointer-events: auto;
+}
