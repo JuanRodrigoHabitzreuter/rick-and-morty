@@ -3,7 +3,7 @@ name: deploy
   on:
     push:
       branches:
-        - main
+        - master
 jobs:
   deploy:
     runs-On: ubuntu-20.04

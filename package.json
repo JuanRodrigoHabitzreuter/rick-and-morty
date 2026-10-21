@@ -1,8 +1,8 @@
 {
   "name": "rick-and-morty-api",
   "version": "0.1.0",
-  "homepage": "rick-and-morty-api",
-  "private": false,
+  "homepage": "rick-and-morty",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
